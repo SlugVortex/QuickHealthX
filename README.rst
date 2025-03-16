@@ -319,4 +319,5 @@ Technology Stack
 Author
 ======
 Team FIG
+
 ClaudeAI - Documentation support

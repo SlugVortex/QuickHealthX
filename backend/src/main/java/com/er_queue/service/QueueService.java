@@ -1,9 +1,9 @@
-// src/main/java/com/example/patientqueue/service/QueueService.java
-package com.example.patientqueue.service;
+// src/main/java/com/er_queue/patientqueue/service/QueueService.java
+package com.er_queue.service;
 
-import com.example.patientqueue.model.Patient;
-import com.example.patientqueue.model.PatientPublicView;
-import com.example.patientqueue.repository.InMemoryPatientRepository;
+import com.er_queue.model.Patient;
+import com.er_queue.model.PatientPublicView;
+import com.er_queue.repository.InMemoryPatientRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;

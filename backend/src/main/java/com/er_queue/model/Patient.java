@@ -1,5 +1,5 @@
 // src/main/java/com/example/patientqueue/model/Patient.java
-package com.example.patientqueue.model;
+package com.er_queue.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

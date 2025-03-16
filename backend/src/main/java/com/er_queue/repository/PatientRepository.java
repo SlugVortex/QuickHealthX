@@ -1,7 +1,6 @@
-// src/main/java/com/example/patientqueue/repository/PatientRepository.java
-package com.example.patientqueue.repository;
+package com.er_queue.repository;
 
-import com.example.patientqueue.model.Patient;
+import com.er_queue.model.Patient;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

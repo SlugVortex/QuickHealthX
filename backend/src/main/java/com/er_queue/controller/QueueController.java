@@ -1,8 +1,7 @@
-// src/main/java/com/example/patientqueue/controller/QueueController.java
-package com.example.patientqueue.controller;
+package com.er_queue.controller;
 
-import com.example.patientqueue.model.Patient;
-import com.example.patientqueue.service.QueueService;
+import com.er_queue.model.Patient;
+import com.er_queue.service.QueueService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/queue")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:5173")
 @RequiredArgsConstructor
 public class QueueController {
     private final QueueService queueService;

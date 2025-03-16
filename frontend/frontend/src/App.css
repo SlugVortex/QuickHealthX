@@ -1,0 +1,28 @@
+/* src/App.css */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px 0;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Priority level colors */
+.priority-high {
+  background-color: #ffcccc;
+}
+
+.priority-medium {
+  background-color: #fff2cc;
+}
+
+.priority-low {
+  background-color: #d9edf7;
+}
